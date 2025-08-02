@@ -28,4 +28,13 @@ footer {
   font-size: 14px;
   box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
 }
+.ag-theme-alpine .ag-root-wrapper {
+  background-color: #e0f2fe !important;
+}
+.ag-theme-alpine .ag-row.ag-row-even {
+  background-color: #f3f4f6 !important; /* light gray */
+}
 
+.ag-theme-alpine .ag-row.ag-row-odd {
+  background-color: #e5e7eb !important; /* slightly darker gray */
+}

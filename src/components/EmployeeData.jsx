@@ -44,7 +44,8 @@ const EmployeeData = () => {
         gridOptions={gridOptions}
         headerHeight={60}
         rowHeight={40}
-        
+        animateRows={true}
+        getRowClass={params => params.node.rowIndex % 2 === 0 ? 'ag-row-even' : 'ag-row-odd'}
       />
     </div>
   );
