@@ -28,7 +28,7 @@ const EmployeeData = () => {
   };
   const gridOptions = {
     pagination: true, // Enable pagination
-    paginationPageSize: 10, // Set page size
+    paginationPageSize: 12, // Set page size
     rowSelection: "single", // Allow single row selection
     columnHoverHighlight: true,
   };
@@ -44,7 +44,6 @@ const EmployeeData = () => {
         gridOptions={gridOptions}
         headerHeight={60}
         rowHeight={40}
-        animateRows={true}
         getRowClass={params => params.node.rowIndex % 2 === 0 ? 'ag-row-even' : 'ag-row-odd'}
       />
     </div>

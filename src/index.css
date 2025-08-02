@@ -19,8 +19,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 footer {
-  position:  fixed;
-  bottom: 0;
   width: 100%;
   color: #fff;
   text-align: center;
